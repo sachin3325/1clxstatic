@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Mahizhini_CrossBrowser_Test">
+ 
+  <test name="ChromeTest">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="stepdefinitions.crossbrowser_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FirefoxTest">
+	  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="stepdefinitions.crossbrowser_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="EdgeTest">
+  <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="stepdefinitions.crossbrowser_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

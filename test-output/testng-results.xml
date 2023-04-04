@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-22T06:00:53Z" name="Default suite" finished-at="2023-03-22T06:01:58Z" duration-ms="65450">
+    <groups>
+    </groups>
+    <test started-at="2023-03-22T06:00:53Z" name="Default test" finished-at="2023-03-22T06:01:58Z" duration-ms="65450">
+      <class name="other_1clx_tests.BrokenImagetest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:other_1clx_tests.BrokenImagetest@2f62ea70]" started-at="2023-03-22T06:00:53Z" name="beforeClass" finished-at="2023-03-22T06:01:13Z" duration-ms="20530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:other_1clx_tests.BrokenImagetest@2f62ea70]" started-at="2023-03-22T06:01:13Z" name="f" finished-at="2023-03-22T06:01:56Z" duration-ms="43344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:other_1clx_tests.BrokenImagetest@2f62ea70]" started-at="2023-03-22T06:01:56Z" name="afterClass" finished-at="2023-03-22T06:01:58Z" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- other_1clx_tests.BrokenImagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
